@@ -1,0 +1,75 @@
+:root {
+  --lightColor: #f9f7f6;
+  --headingFont: "DM Serif Display", serif;
+  --lightSubtitle: #f9f7f6b3;
+  --bodyFont: "Inter", sans-serif;
+}
+
+:root {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  width: fit-content;
+  min-height: 100vh;
+  height: 100%;
+  font-family: var(--bodyFont);
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-snap-type: y proximity;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  background-color: var(--lightColor);
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+p,
+button,
+a,
+li,
+ul {
+  font-family: var(--bodyFont);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* SECTION */
+
+section {
+  display: flex;
+  box-sizing: border-box;
+  min-height: 100vh;
+  width: 100%;
+  padding: 5.5rem 1.75rem;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 500px) {
+  section {
+    padding: 4rem;
+    justify-content: start;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  section {
+    padding: 4rem;
+    justify-content: center;
+  }
+}

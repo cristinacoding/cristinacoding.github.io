@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "name": "Mini Loja",
+    "description": "",
+    "technologies": ["React", "JavaScript"],
+    "live": "",
+    "repo": "",
+    "image": "path/to/project-image.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Mini Loja",
+    "description": "",
+    "technologies": ["React", "JavaScript"],
+    "live": "",
+    "repo": "",
+    "image": "path/to/project-image.jpg"
+  }
+]

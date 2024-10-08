@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "name": "React.js",
+    "icon": "src/assets/figma.svg"
+  },
+  {
+    "id": 1,
+    "name": "JavaScript",
+    "icon": "src/assets/figma.svg"
+  },
+  {
+    "id": 2,
+    "name": "Tailwind",
+    "icon": "src/assets/figma.svg"
+  },
+  {
+    "id": 3,
+    "name": "HTML",
+    "icon": "src/assets/figma.svg"
+  },
+  {
+    "id": 4,
+    "name": "CSS",
+    "icon": "src/assets/figma.svg"
+  },
+  {
+    "id": 5,
+    "name": "Git",
+    "icon": "src/assets/figma.svg"
+  },
+  {
+    "id": 6,
+    "name": "GitHub",
+    "icon": "src/assets/figma.svg"
+  },
+  {
+    "id": 7,
+    "name": "Figma",
+    "icon": "src/assets/figma.svg"
+  }
+]

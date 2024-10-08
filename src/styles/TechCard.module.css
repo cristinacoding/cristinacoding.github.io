@@ -1,0 +1,28 @@
+.container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    row-gap: 1rem;
+}
+
+.name {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--lightColor);
+    margin: 0;
+    padding: 0;
+  }
+
+  .icon {
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    aspect-ratio: 1;
+  }
+
+  @media only screen and (min-width: 900px) {
+    .container {
+        width: 100px;
+    }
+  }
