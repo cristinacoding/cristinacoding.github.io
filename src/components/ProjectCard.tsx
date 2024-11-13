@@ -1,8 +1,16 @@
-import React from 'react'
 import styles from '../styles/ProjectCard.module.css'
 import { ChevronRight } from 'lucide-react';
 
-function ProjectCard( {project} ) {
+type project = {
+  id: number;
+  name: string;
+  description: string;
+  live: string;
+  repo: string;
+  image: string;
+};
+
+function ProjectCard( {project}: { project: project } ) {
   return (
     <div className={styles.container}>
       <a href={project.live}><img className={styles.image} src={project.image}/></a>

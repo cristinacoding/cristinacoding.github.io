@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../styles/Footer.module.css'
 import data from '../data/socials.json'
 import FooterIcon from './FooterIcon'

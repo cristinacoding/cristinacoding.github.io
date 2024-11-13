@@ -1,7 +1,12 @@
-import React from 'react'
 import styles from '../styles/TechCard.module.css'
 
-function TechCard( {tech} ) {
+type tech = {
+  id: number;
+  name: string;
+  icon: string;
+};
+
+function TechCard( {tech}: { tech: tech } ) {
   return (
     <div className={styles.container}>
       <img className={styles.icon} src={tech.icon}/>

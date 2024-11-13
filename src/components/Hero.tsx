@@ -1,4 +1,3 @@
-import React from 'react'
 import data from '../data/profile.json'
 import styles from '../styles/Hero.module.css'
 import photo from '../assets/photo.png'

@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../styles/TechStack.module.css'
 import TechCard from './TechCard'
 import data from '../data/stack.json'
