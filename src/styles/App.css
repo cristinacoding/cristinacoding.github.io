@@ -5,6 +5,21 @@
   --bodyFont: "Inter", sans-serif;
 }
 
+::selection {
+  color: var(--lightColor);
+  background: rgb(92, 91, 89);
+}
+
+::selection {
+  color: var(--lightColor);
+  background: rgb(92, 91, 89);
+}
+
+::-moz-selection {
+color: var(--lightColor);
+background: rgb(92, 91, 89);
+}
+
 :root {
   display: flex;
   flex-direction: column;
@@ -35,7 +50,9 @@ p,
 button,
 a,
 li,
-ul {
+ul,
+input,
+textarea {
   font-family: var(--bodyFont);
 }
 

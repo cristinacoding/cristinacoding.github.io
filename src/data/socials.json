@@ -1,0 +1,14 @@
+[
+    {
+        "id": 0,
+        "name": "LinkedIn",
+        "icon": "../src/assets/linkedinSocial.svg",
+        "link": "https://linkedin.com/in/cristinacoding"
+      },
+      {
+        "id": 1,
+        "name": "GitHub",
+        "icon": "../src/assets/githubSocial.svg",
+        "link": "https://github.com/cristinacoding"
+      }
+]

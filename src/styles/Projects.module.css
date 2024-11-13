@@ -1,0 +1,62 @@
+  .content {
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3rem;
+  }
+  
+  .textContainer {
+    width: 100%;
+  }
+  
+  .title {
+    font-family: var(--headingFont);
+    font-style: italic;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .subtitle {
+    font-family: var(--bodyFont);
+    font-style: italic;
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .projectsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(300px,100%), 1fr));
+    row-gap: 3.75rem;
+    column-gap: 1.25rem;
+    justify-items: center;
+    color: var(--lightColor);
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 500px) {
+  }
+  
+  @media only screen and (min-width: 900px) {
+    .content {
+
+    }
+  
+    .fill {
+      scroll-snap-align: start;
+    }
+  
+    .textContainer {
+      text-align: right;
+    }
+  }
+  

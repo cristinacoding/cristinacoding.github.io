@@ -17,8 +17,8 @@ const NavLinks: React.FC<NavLinksProps> = ({ isOpen, menuRef }) => {
         >
             <li role="menuitem"><a href="/">Home</a></li>
             <li role="menuitem"><a href="/blog">Blog</a></li>
-            <li role="menuitem"><a href="#services">LinkedIn</a></li>
-            <li role="menuitem"><a href="#contact">GitHub</a></li>
+            <li role="menuitem"><a href="https://www.linkedin.com/in/cristinacoding/"  target="_blank">LinkedIn</a></li>
+            <li role="menuitem"><a href="https://github.com/cristinacoding" target="_blank">GitHub</a></li>
         </ul>
     );
 };

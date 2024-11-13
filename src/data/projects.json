@@ -1,20 +1,38 @@
 [
   {
     "id": 0,
-    "name": "Mini Loja",
-    "description": "",
-    "technologies": ["React", "JavaScript"],
-    "live": "",
+    "name": "Personal Website",
+    "description": "I designed my website in Figma and developed it using Vite, TypeScript, and React. I applied pure CSS for styling, organizing each component's styles with CSS Modules for better modularity.",
+    "technologies": ["TypeScript", "React"],
+    "live": "https://cristinacoding.github.io",
     "repo": "",
-    "image": "path/to/project-image.jpg"
+    "image": "../src/assets/project.png"
   },
   {
     "id": 1,
     "name": "Mini Loja",
-    "description": "",
+    "description": "My colleagues and I worked on a small React project where we developed a mock online shop. Users can add or remove items from their cart.",
     "technologies": ["React", "JavaScript"],
     "live": "",
+    "repo": "https://github.com/cristinacoding/mini-loja",
+    "image": "../src/assets/project.png"
+  },
+  {
+    "id": 2,
+    "name": "Old Website",
+    "description": "My previous personal website that I developed with HTML, CSS and JavaScript.",
+    "technologies": ["React", "JavaScript"],
+    "live": "",
+    "repo": "https://github.com/cristinacoding/old-website",
+    "image": "../src/assets/project.png"
+  },
+  {
+    "id": 3,
+    "name": "Aquarius",
+    "description": "Small one-page website to practice flexbox and bootstrap classes.",
+    "technologies": ["React", "JavaScript"],
+    "live": "https://tiny-meringue-6676a3.netlify.app/",
     "repo": "",
-    "image": "path/to/project-image.jpg"
+    "image": "../src/assets/project.png"
   }
 ]

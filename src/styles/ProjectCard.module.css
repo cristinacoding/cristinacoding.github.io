@@ -1,0 +1,56 @@
+.container {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    place-items: flex-start;
+    row-gap: 1.25rem;
+}
+
+.name {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    background-color: #000;
+  }
+
+  .description {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 0;
+    text-align: left;
+    font-weight: 300;
+    color: #000;
+  }
+
+  .repoButton {
+    margin-top: auto; /* trick to put button to end of container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: italic;
+    text-decoration: none;
+    background-color: #000;
+    color: var(--lightColor);
+    border: 0;
+    padding: 12px 36px;
+    cursor: pointer;
+  }
+
+  @media only screen and (min-width: 900px) {
+
+  }

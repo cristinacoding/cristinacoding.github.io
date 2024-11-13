@@ -45,7 +45,7 @@
 
 .paragraph {
   font-family: var(--bodyFont);
-  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 300;
   text-align: left;
   color: #00000099;
@@ -63,11 +63,13 @@
   text-transform: uppercase;
   font-weight: 300;
   font-style: italic;
+  text-decoration: none;
   background-color: #000;
   color: var(--lightColor);
   border: 0;
   padding: 14px 36px;
   cursor: pointer;
+  box-sizing: border-box;
 }
 
 .photo {

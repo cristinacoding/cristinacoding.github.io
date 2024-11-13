@@ -1,13 +1,8 @@
 {
   "title": "Hi, I'm Cristina.",
   "subtitle": "A Junior Frontend Developer",
-  "bio": "I’m passionate about building accessible, user-friendly and responsive websites  that seamlessly adapt to any device.",
-  "photo": "path/to/photo.jpg",
+  "bio": "I’m passionate about building accessible, user-friendly and responsive websites  that seamlessly adapt to any device. I prioritize clean, organized code and am committed to following best practices to ensure maintainability and scalability.",
+  "photoAlt": "Portrait of Cristina",
   "email": "cristinacoding@gmail.com",
-  "location": "Lisbon",
-  "socials": {
-    "linkedin": "https://linkedin.com/in/cristinacoding",
-    "github": "https://github.com/cristinacoding",
-    "twitter": "https://twitter.com/cristinacoding"
-  }
+  "location": "Lisbon"
 }

@@ -8,14 +8,14 @@ function Hero() {
   return (
     <section className={styles.fill}>
       <div className={styles.content}>
-        <img className={styles.photo} src={photo} />
+        <img className={styles.photo} src={photo} alt={data.photoAlt} />
         <div className={styles.textAndButtonContainer}>
           <div className={styles.textContainer}>
             <h1 className={styles.title}>{data.title}</h1>
             <h2 className={styles.subtitle}>{data.subtitle}</h2>
             <p className={styles.paragraph}>{data.bio}</p>
           </div>
-          <button className={styles.cta}>Get in touch  <ChevronRight strokeWidth={1}/></button>
+          <a className={styles.cta} href="#getInTouch">Get in touch  <ChevronRight strokeWidth={1}/></a>
         </div>
       </div>
     </section>

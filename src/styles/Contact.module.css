@@ -1,0 +1,61 @@
+.fill {
+    background-color: #000;
+  }
+  
+  .content {
+    max-width: 1000px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2.5rem;
+  }
+
+  .mail {
+    color: var(--lightColor);
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .linkedIn {
+    color: var(--lightColor);
+    text-underline-offset: 0.25rem;
+  }
+
+  
+  .title {
+    font-family: var(--headingFont);
+    font-style: italic;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    color: var(--lightColor);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .subtitle {
+    font-family: var(--bodyFont);
+    font-size: 1.125rem;
+    font-weight: 200;
+    line-height: 1.75rem;
+    text-align: left;
+    color: var(--lightColor);
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media only screen and (min-width: 500px) {
+  }
+  
+  @media only screen and (min-width: 900px) {
+  
+    .fill {
+      scroll-snap-align: start;
+      background-color: #000;
+    }
+
+  }
+  
+  
